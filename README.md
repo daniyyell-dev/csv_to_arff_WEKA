@@ -1,47 +1,33 @@
-# csv_to_arff_WEKA
+# CSV to ARFF Converter
 
-## Introduction
+## Overview
 
-This Python script converts a CSV file to the ARFF format. The conversion is intended for use with the Weka machine learning toolkit, which commonly uses ARFF files.
+This Python script converts a CSV (Comma-Separated Values) file to ARFF (Attribute-Relation File Format), a popular data format used in machine learning. The conversion process involves transforming column names and data from a CSV file into the required ARFF format.
 
-## Prerequisites
+## Requirements
 
-Make sure you have the required libraries installed. You can install them using:
-
-'''
-pip install pandas scipy
+- Python 3.x
+- pandas library (`pip install pandas`)
+- scipy library (`pip install scipy`)
 
 ## Usage
-1. Clone the Repository
 
-Clone the repository to your local machine:
+1. **Clone Repository:**
 
+    ```bash
+    git clone https://github.com/daniyyell-dev/csv_to_arff_WEKA.git
+    cd csv-to-arff-converter
+    ```
 
-git clone  https://github.com/daniyyell-dev/csv_to_arff_WEKA
+2. **Run the Converter Script:**
 
-cd csv_to_arff_WEKA
+    Replace `your_dataset.csv` with the path to your CSV file.
 
-###
-2. Prepare your CSV file
+    ```bash
+    python convert_to_arff.py your_dataset.csv
+    ```
 
-Place your CSV file in the same directory as the script. Ensure that the CSV file follows the required format.
+3. **Output:**
 
-3. Run the Script
+    The script will generate an ARFF file named `OUTPUT_NAME.arff` in the same directory.
 
-Execute the script by running:
-
-python3 csv_to_arff_converter.py
-
-4. Output
-
-The script will generate an ARFF file named "Dataset-me-WEKA.arff" in the same directory as the CSV file.
-Configuration
-
-You can customize the script by modifying the following variables:
-
-    csv_file_path: Path to your CSV file.
-    arff_file_path: Desired path for the output ARFF file.
-
-Customization
-
-If you need to customize the attribute names or data types, you can modify the script accordingly. Ensure that your changes are compatible with the Weka ARFF format.
