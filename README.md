@@ -8,29 +8,29 @@ This Python script converts a CSV file to the ARFF format. The conversion is int
 
 Make sure you have the required libraries installed. You can install them using:
 
-```bash
+'''
 pip install pandas scipy
 
-Usage
+## Usage
 1. Clone the Repository
 
 Clone the repository to your local machine:
 
-bash
 
-git clone https://github.com/your-username/csv-to-arff-converter.git
-cd csv-to-arff-converter
+git clone  https://github.com/daniyyell-dev/csv_to_arff_WEKA
 
+cd csv_to_arff_WEKA
+
+###
 2. Prepare your CSV file
 
 Place your CSV file in the same directory as the script. Ensure that the CSV file follows the required format.
+
 3. Run the Script
 
 Execute the script by running:
 
-bash
-
-python csv_to_arff_converter.py
+python3 csv_to_arff_converter.py
 
 4. Output
 
