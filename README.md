@@ -8,7 +8,7 @@ This Python script converts a CSV (Comma-Separated Values) file to ARFF (Attribu
 
 - Python 3.x
 
-  (`pip install -r requirements.txt`)
+  `pip install -r requirements.txt`
 
 ## Usage
 
