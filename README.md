@@ -1,5 +1,7 @@
 # CSV to ARFF Converter
 
+![Repository Logo](https://github.com/daniyyell-dev/csv_to_arff_WEKA/raw/main/logo1.png)
+
 ## Overview
 
 This Python script converts a CSV (Comma-Separated Values) file to ARFF (Attribute-Relation File Format), a popular data format used in machine learning. The conversion process involves transforming column names and data from a CSV file into the required ARFF format.
