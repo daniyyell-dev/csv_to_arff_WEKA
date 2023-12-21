@@ -1,0 +1,4 @@
+# Add any specific versions if needed
+pandas
+scipy
+tqdm
