@@ -7,9 +7,8 @@ This Python script converts a CSV (Comma-Separated Values) file to ARFF (Attribu
 ## Requirements
 
 - Python 3.x
-- pandas library (`pip install pandas`)
-- scipy library (`pip install scipy`)
-- pip install tqdm
+
+  (`pip install -r requirements.txt`)
 
 ## Usage
 
