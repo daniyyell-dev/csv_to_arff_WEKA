@@ -3,6 +3,12 @@ import pandas as pd
 from scipy.io import arff
 from tqdm import tqdm
 
+
+
+# Author: daniyyell
+# Description: Convert CSV to ARFF
+#December 21, 2023.
+
 # Load the CSV file
 csv_file_path = 'YOUR_DATASET.csv'  # Replace with the actual path to your CSV file, please makes sure it has correct label e.g BENIGN,MALWARE
 df = pd.read_csv(csv_file_path)
