@@ -24,7 +24,7 @@ This Python script converts a CSV (Comma-Separated Values) file to ARFF (Attribu
     Replace `your_dataset.csv` with the path to your CSV file.
 
     ```bash
-    python convert_to_arff.py your_dataset.csv
+    python3 convert_to_arff.py your_dataset.csv
     ```
 
 3. **Output:**
