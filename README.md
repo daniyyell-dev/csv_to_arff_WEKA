@@ -1,6 +1,6 @@
 # CSV to ARFF Converter
 
-Let Assumming your dataset look like the image bellow.
+Let assuming your dataset look like the image bellow.
 
 
 ![Repository Logo](https://github.com/daniyyell-dev/csv_to_arff_WEKA/raw/main/logo1.png)
