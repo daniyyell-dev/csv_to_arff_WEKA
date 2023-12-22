@@ -30,7 +30,7 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
     Replace `your_dataset.csv` with the path to your CSV file.
 
     ```bash
-    python3 convert_to_arff.py your_dataset.csv
+    python3 convert_to_arff.py your_dataset.csv output.arff
     ```
 
 3. **Output:**
