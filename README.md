@@ -37,12 +37,11 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
 
     The script will generate an ARFF file named `OUTPUT_NAME.arff` in the same directory.
 
-43. **Alteraive:**
+43. **Alternative:**
 
-    Open the code and edit 'line 13' YOUR_DATASET.csv = your dataset name.
-    And 'line 17' OUTPUT_NAME.arff = your desire output name
+    Open the code and edit
+    `line 13` YOUR_DATASET.csv = your dataset name.
+    And `line 17` OUTPUT_NAME.arff = your desire output name
     The just run
     
-   ```bash
-    python3 csv_to_arff.py 
-    ```
+    `python3 csv_to_arff.py`
