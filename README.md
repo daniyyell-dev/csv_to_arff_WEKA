@@ -41,7 +41,7 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
 
     Open the code and edit
     `line 13` YOUR_DATASET.csv = your dataset name. \
-    `line 17` OUTPUT_NAME.arff = your desire output name \
+    `line 17` OUTPUT_NAME.arff = your desire output name 
     
     Then just run
     
