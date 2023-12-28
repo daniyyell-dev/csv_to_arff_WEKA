@@ -40,8 +40,8 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
 43. **Alternative:**
 
     Open the code and edit
-    `line 13` YOUR_DATASET.csv = your dataset name.
-    And `line 17` OUTPUT_NAME.arff = your desire output name
+    `line 13` YOUR_DATASET.csv = your dataset name. \
+    `line 17` OUTPUT_NAME.arff = your desire output name
     The just run
     
     `python3 csv_to_arff.py`
