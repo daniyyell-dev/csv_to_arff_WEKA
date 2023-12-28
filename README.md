@@ -22,7 +22,7 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
 
     ```bash
     git clone https://github.com/daniyyell-dev/csv_to_arff_WEKA.git
-    cd csv-to-arff-converter
+    cd csv_to_arff_WEKA
     ```
 
 2. **Run the Converter Script:**
@@ -30,7 +30,7 @@ but the site is limited to 100MB upload file at a time (Date accessed: December 
     Replace `your_dataset.csv` with the path to your CSV file.
 
     ```bash
-    python3 convert_to_arff.py your_dataset.csv output.arff
+    python3 csv_to_arff.py your_dataset.csv output.arff
     ```
 
 3. **Output:**
